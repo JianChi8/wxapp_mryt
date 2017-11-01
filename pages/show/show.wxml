@@ -1,0 +1,6 @@
+<view class="container">
+<image id="testPic" mode="widthFix" src="http://wx.circuits.top/mryt/upload/{{imgid}}.png"></image>
+<audio id="audioPlayer" class="{{showView?'audio_show':'audio_hide'}}" src="http://wx.circuits.top/mryt/upload/{{imgid}}.amr" name="每日一题讲解" author="樊双平" id="myAudio" controls="true"></audio>
+<button id="showButton" class="{{showAnswerButton?'audio_show':'audio_hide'}}" bindtap="onChangeShowState">显示答案</button>
+<image id="answerPic" class="{{showAnswer?'audio_show':'audio_hide'}}" mode="widthFix" src="http://wx.circuits.top/mryt/upload/a{{imgid}}.png"></image>
+</view>

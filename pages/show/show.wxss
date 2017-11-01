@@ -1,0 +1,14 @@
+/* show.wxss */
+.audio_hide{
+ display: none;
+}
+.audio_show{
+ display: block;
+}
+
+#testPic{
+  margin-bottom: 10px;
+}
+#showButton{
+  margin: 10px;
+}
